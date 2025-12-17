@@ -1,20 +1,18 @@
 #!/bin/bash
 set -e
 
-echo "=============================="
-echo "🚀 Starting AI Tool Pipeline"
-echo "=============================="
+if [ ! -f models/best_model.pkl ]; then
+    echo "📊 Model not found. Generating data..."
+    python generate_data.py
 
-echo "📊 Generating synthetic data..."
-python generate_data.py
+    echo "🤖 Training ML model..."
+    python train_model.py
 
-echo "🤖 Training ML model..."
-python train_model.py
+    echo "🧪 Running tests..."
+    pytest
+else
+    echo "✅ Model already exists. Skipping training."
+fi
 
-echo "🧪 Running unit tests..."
-pytest
-
-echo "✅ Tests passed successfully"
-
-echo "🌐 Starting FastAPI server..."
+echo "🚀 Starting FastAPI..."
 python -m uvicorn app:app --host 0.0.0.0 --port ${PORT}
