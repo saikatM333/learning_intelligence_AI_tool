@@ -1,8 +1,8 @@
-🧠 Learning Intelligence AI Tool
+# <H1> 🧠 Learning Intelligence AI Tool</H1>
 
 AI-Powered Learning Analytics System for Internship / Training Platforms
 
-📌 Overview
+# <H1>📌 Overview </H1>
 
 The Learning Intelligence AI Tool is a production-style AI system designed to analyze learner behavior and generate actionable insights for mentors and administrators.
 
@@ -18,14 +18,14 @@ Generates human-readable insights
 
 The system is built with real-world deployment principles, including model persistence, testing, and containerization.
 
-🎯 Key Features
-✅ Course Completion Prediction
+# <H1> 🎯 Key Features </H1>
+## **✅ Course Completion Prediction**
 
-Binary classification model
+# <H1> Binary classification model </H1>
 
 Predicts whether a learner will complete a course
 
-⚠️ Early Risk Detection
+# <H1> ⚠️ Early Risk Detection </H1>
 
 Probability-based dropout risk flags:
 
@@ -35,7 +35,7 @@ MEDIUM
 
 LOW
 
-📚 Chapter Difficulty Detection
+# <H1> 📚 Chapter Difficulty Detection </H1>
 
 Identifies difficult chapters using:
 
@@ -45,7 +45,7 @@ Average assessment score
 
 Average time spent
 
-📊 Insight Generation
+# <H1> 📊 Insight Generation <H1>
 
 High-risk student list
 
@@ -94,7 +94,7 @@ learning-intelligence-ai/
 └── tests/
     └── test_inference.py
 
-📥 Input Format
+# 📥 Input Format
 
 The system accepts learner data in CSV format with the following fields:
 
@@ -105,7 +105,8 @@ chapter_order	Chapter sequence number
 time_spent	Time spent on chapter (minutes)
 score	Assessment score
 completion_status	1 = completed, 0 = not completed
-📤 Output
+
+# 📤 Output
 
 The AI tool generates:
 
@@ -123,49 +124,55 @@ REST API (JSON)
 
 CLI (console output)
 
-🤖 Machine Learning Details
-Models Evaluated
+# 🤖 Machine Learning Details
 
-Logistic Regression
+* Models Evaluated
 
-Random Forest
+* Logistic Regression
 
-Gradient Boosting
+* Random Forest
 
-Support Vector Machine (SVM)
+* Gradient Boosting
 
-Model Selection
+* Support Vector Machine (SVM)
 
-Hyperparameter tuning via GridSearchCV
+* Model Selection
 
-Best model selected based on test accuracy
+* Hyperparameter tuning via GridSearchCV
 
-Class imbalance handled using SMOTE
+* Best model selected based on test accuracy
 
-Preprocessing
+* Preprocessing
 
-Median imputation for missing values
+* edian imputation for missing values
 
-Quantile-based clipping for outlier mitigation
+* Quantile-based clipping for outlier mitigation
 
-Reproducibility
+* Reproducibility
 
-Trained model is serialized (.pkl)
+* Trained model is serialized (.pkl)
 
-Loaded during inference
+* Loaded during inference
 
-🚀 How to Run (One Command)
+# 🚀 How to Run (One Command)
 Prerequisites
 
 Docker installed
 
 Build the Docker Image
+
 docker build -t learning-ai .
 
-Run the AI Tool
+Run the AI Tool~ 
+
 docker run -p 8001:8000 learning-ai
 
-Access API
+**CLI Commonds To run the application and train the models**
+
+<img width="535" height="49" alt="image" src="https://github.com/user-attachments/assets/9c0009f6-7377-4622-a283-35924aad4900" />
+<img width="532" height="39" alt="image" src="https://github.com/user-attachments/assets/5d687687-3b44-4af4-9da0-116067f761de" />
+
+**Access API**
 
 Open in browser:
 
@@ -174,7 +181,7 @@ http://localhost:8001/docs
 
 Upload sample_students.csv to test predictions.
 
-🧪 Testing
+# 🧪 Testing
 
 Unit tests written using pytest
 
@@ -186,13 +193,14 @@ Run tests manually:
 
 pytest
 
-🛠 CLI Usage (Optional)
+# 🛠 CLI Usage (Optional)
+
 python cli.py --input data/sample_students.csv
 
 
 Outputs predictions and insights to the console.
 
-🔍 Sample Insights
+# 🔍 Sample Insights
 
 High-risk learners identified early
 
@@ -200,7 +208,7 @@ Low scores and low engagement correlate strongly with dropouts
 
 Certain chapters show consistently higher difficulty
 
-🔐 Ethical AI & Transparency
+# 🔐 Ethical AI & Transparency
 
 Synthetic data used for demonstration purposes
 
@@ -208,7 +216,7 @@ No personal or sensitive data included
 
 Model decisions are explainable through insights
 
-🤝 AI Assistance Disclosure
+# 🤝 AI Assistance Disclosure
 
 AI tools (including ChatGPT) were used for:
 
@@ -218,7 +226,7 @@ Best practices in ML pipelines and deployment
 
 All core logic, model training, preprocessing, inference, testing, and integration were implemented, verified, and customized independently.
 
-📌 Conclusion
+# 📌 Conclusion
 
 This project demonstrates the ability to:
 
@@ -228,11 +236,11 @@ Integrate ML into a production-style application
 
 Deliver reproducible, testable, and deployable AI solutions
 
-📬 Contact
+# 📬 Contact
 
 For any questions or clarifications regarding this project, feel free to reach out.
 
-✅ Ready for Submission
+# ✅ Ready for Submission
 
 This project fully satisfies the internship assessment requirements for:
 AI Engineering · Machine Learning · Real-World Deployment
@@ -241,7 +249,22 @@ If you want, I can:
 
 Shorten it (if they prefer concise)
 
-Add screenshots section
+# <h1> screenshots </h1>
+**post api API - pas the csv file genrrered by the code or your data** 
+
+<img width="528" height="262" alt="image" src="https://github.com/user-attachments/assets/b281089f-2f18-46fa-9d63-1bcdd854af39" />
+
+**Response**
+
+<img width="521" height="251" alt="image" src="https://github.com/user-attachments/assets/76eb3332-a606-4b07-9320-f3a2c965dced" />
+
+
+
+**CLI Result **
+
+<img width="794" height="401" alt="image" src="https://github.com/user-attachments/assets/22e4fe7d-a986-458f-a116-3a23313335a0" />
+
+
 
 Tailor it to a specific company tone
 
