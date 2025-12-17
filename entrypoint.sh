@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-if [ ! -f models/best_model.pkl ]; then
+if [ ! -f models/completion_model.pkl ]; then
     echo "📊 Model not found. Generating data..."
     python generate_data.py
 
