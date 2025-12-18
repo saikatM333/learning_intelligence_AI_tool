@@ -2,6 +2,9 @@
 
 AI-Powered Learning Analytics System for Internship / Training Platforms
 
+# <H1> Deployed API #
+# <H1> https://learning-intelligence-ai-tool.onrender.com/analyze </H1>
+
 # <H1>📌 Overview </H1>
 
 The Learning Intelligence AI Tool is a production-style AI system designed to analyze learner behavior and generate actionable insights for mentors and administrators.
