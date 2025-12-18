@@ -259,7 +259,7 @@ For any questions or clarifications regarding this project, feel free to reach o
 
 
 
-**CLI Result **
+**CLI Result**
 
 <img width="794" height="401" alt="image" src="https://github.com/user-attachments/assets/22e4fe7d-a986-458f-a116-3a23313335a0" />
 
