@@ -246,14 +246,7 @@ Deliver reproducible, testable, and deployable AI solutions
 
 For any questions or clarifications regarding this project, feel free to reach out.
 
-# ✅ Ready for Submission
 
-This project fully satisfies the internship assessment requirements for:
-AI Engineering · Machine Learning · Real-World Deployment
-
-If you want, I can:
-
-Shorten it (if they prefer concise)
 
 # <h1> screenshots </h1>
 **post api API - pas the csv file genrrered by the code or your data** 
